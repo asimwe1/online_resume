@@ -8,7 +8,6 @@ const home = () => {
     return (
         <main>
             <head>
-                <meta name="ezoic-site-verification" content="uKVLNCIWh5i65tSfhhMwU16eiLVR5T" />
                 <Analytics />
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6172208143098274"
                     crossorigin="anonymous"></script>

@@ -3,10 +3,12 @@ import Banner from '../components/HomeComponents/Banner';
 import MyExpertise from '../components/HomeComponents/Expertise/MyExpertise';
 import Recommendations from '../components/HomeComponents/Recommendations/Recommendations';
 import ClientReviews from '../components/HomeComponents/ClientReviews/ClientReviews';
+import { Analytics } from "@vercel/analytics/react"
 const home = () => {
     return (
         <main>
             <head>
+                <Analytics />
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6172208143098274"
                     crossorigin="anonymous"></script>
             </head>

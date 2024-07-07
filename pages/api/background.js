@@ -32,7 +32,7 @@ const background = [
                 id: 2,
                 title: 'Neza Lab',
                 role: 'Graphic Designer',
-                url: 'nezalab.com',
+                url: 'https://nezalab.com',
                 desc: 'As a designer, i worked on making interactive and modern designs web layout and posters',
                 year: '02/2020 - 08/2023',
                 location: 'Beijing, China'
@@ -50,7 +50,7 @@ const background = [
                 id: 4,
                 title: 'Binance Inc',
                 role: 'Summer Enternee',
-                url: 'binance.com',
+                url: 'https://binance.com',
                 desc: 'I learnt web3 integration, I learned how to use solidity and rust to build modern-web3 websites.'
             },
 

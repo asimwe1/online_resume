@@ -1,11 +1,11 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'Asimwe Landry Chretien';
 
 export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'Rwanda',
+  City: 'Kigali',
+  Age: '20',
 };
 
 export const SKILLS = [
@@ -17,18 +17,18 @@ export const SKILLS = [
     title: 'React Developer',
     level: '91%',
   },
-  // {
-  //   title: 'Desktop Application Developer',
-  //   level: '75%',
-  // },
+  {
+    title: 'Desktop Application Developer',
+    level: '75%',
+  },
   {
     title: 'Backend Developer',
     level: '54%',
   },
-  {
-    title: 'Technical Blogger',
-    level: '83%',
-  },
+  // {
+  //   title: 'Technical Blogger',
+  //   level: '83%',
+  // },
 ];
 
 export const TECH_STACK = [
@@ -38,9 +38,9 @@ export const TECH_STACK = [
   'TypeScript',
   'NodeJS',
   'Redux',
-  'Zustand',
+  'Rust Lang',
   'CSS',
-  'SCSS',
+  'BootstrapCSS',
   'TailwindCSS',
   'Ant Design',
   'Material UI',
@@ -48,20 +48,20 @@ export const TECH_STACK = [
   'REST API',
   'MongoDB',
   'MySQL',
+  'Python',
   'Git',
   'GitHub',
-  'Jira',
   'Figma',
   'Adobe XD',
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'landryasimwe@gmail.com',
+  PHONE: '+250 785 674 868',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
+  GITHUB: 'https://github.com/asimwe1',
+  LINKEDIN: 'https://www.linkedin.com/in/asimwe-landry/',
   TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+  INSTAGRAM: 'https://www.instagram.com/landry_sb',
 };

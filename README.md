@@ -1,20 +1,19 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/osamajavaid/portfolio)
-  ![GitHub stars](https://img.shields.io/github/stars/osamajavaid/portfolio?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/osamajavaid/portfolio?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/iosamajavaid?style=social)](https://twitter.com/intent/follow?screen_name=iosamajavaid)
-
+  ![GitHub repo size](https://img.shields.io/github/repo-size/asimwe1/online_resume)
+  ![GitHub stars](https://img.shields.io/github/stars/asimwe1/online_resume?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/asimwe1/online_resume?style=social)
+ 
   <br />
   <br />
   
   <img src="./public/readme-images/moj.png" />
 
-  <h2 align="center">Muhammad Osama Javaid - Personal portfolio</h2>
+  <h2 align="center">Asimwe Landry - Personal portfolio</h2>
 
 This website is fully responsive personal portfolio, <br />Responsive for all devices, built using Nextjs, TailwindCSS only.
 
-<a href="https://osamajavaid.vercel.app/"><strong>➥ Live Demo</strong></a>
+<a href="https://landrysb.online/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -37,18 +36,18 @@ To run **portfolio** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/osamajavaid/portfolio.git
+sudo git clone https://github.com/asimwe1/online_resume.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/osamajavaid/portfolio.git
+git clone https://github.com/asimwe1/online_resume.git
 ```
 
 ### Contact
 
-If you want to contact with me you can reach me at [X](https://www.x.com/iosamajavaid).
+If you want to contact with me you can reach me at [Instagram](https://www.Instagram.com/landry_sb).
 
 ### License
 

@@ -5,7 +5,6 @@ export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tec
 export const DETAILS = {
   Residence: 'Rwanda',
   City: 'Kigali',
-  Age: '20',
 };
 
 export const SKILLS = [
@@ -14,8 +13,20 @@ export const SKILLS = [
     level: '75%',
   },
   {
+    title: 'NEXT.JS Developer',
+    level: '81%',
+  },
+  {
     title: 'React Developer',
     level: '91%',
+  },
+  {
+    title: 'Rust Developer',
+    level: '51%',
+  },
+  {
+    title: 'GO developer',
+    level: '59%',
   },
   {
     title: 'Desktop Application Developer',
@@ -32,13 +43,15 @@ export const SKILLS = [
 ];
 
 export const TECH_STACK = [
-  'JavaScript',
-  'ReactJS',
-  'NextJS',
   'TypeScript',
   'NodeJS',
   'Redux',
   'Rust Lang',
+  'GoLang',
+  'Kotlin',
+  'JavaScript',
+  'ReactJS',
+  'NextJS',
   'CSS',
   'BootstrapCSS',
   'TailwindCSS',
@@ -62,6 +75,6 @@ export const CONTACTS = {
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/asimwe1',
   LINKEDIN: 'https://www.linkedin.com/in/asimwe-landry/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
+  TWITTER: 'https://twitter.com/',
   INSTAGRAM: 'https://www.instagram.com/landry_sb',
 };

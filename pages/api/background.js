@@ -3,17 +3,17 @@ const background = [
         eduCards: [
             {
                 id: 0,
-                title: 'UET Peshawar',
-                degree: 'BS, Computer System Engineering',
-                detail: "Bachelor's Degree in Computer System Engineering from UET Peshawar.",
-                year: '2018-2022'
+                title: 'Rwanda Coding Acdemy',
+                degree: 'SPE, Software Programming & Embedded system',
+                detail: "Diploma in Computer System Engineering from RCA.",
+                year: '2023-2026'
             },
             {
                 id: 1,
-                title: 'Peshawar Model Degree College',
-                degree: 'HSSC, Pre Engineering',
-                detail: "Completed FSC part 1 and part 2 in Pre-Engineering from Peshawar Model Degree College.",
-                year: '2015-2017'
+                title: 'Indian Institute of Technology Kanpur',
+                degree: 'MS, Cognitive NeuroScience',
+                detail: "Diploma in Neuroscince and brain Psychology.",
+                year: '2021-2025'
             },
         ]
     },

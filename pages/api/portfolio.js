@@ -210,10 +210,10 @@ const portfolio = [
         ]
     },
     // {
-    //     id: 2,
-    //     projectName: "Culyte",
-    //     url: "https://culyte.com",
-    //     image: "projects/culyte.png",
+    //     id: 4,
+    //     projectName: "Shopping Platform",
+    //     url: "https://github.com/asimwe1/shopping",
+    //     image: "projects/",
     //     projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
     //     technologiesUsed: [
     //         {

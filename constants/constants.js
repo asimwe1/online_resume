@@ -1,6 +1,6 @@
 export const NAME = 'Asimwe Landry Chretien';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | FX Trader`;
 
 export const DETAILS = {
   Residence: 'Rwanda',

@@ -24,6 +24,11 @@ const expertise = [
         title: 'Open Source Contributor',
         desc: "As an active open-source contributor, I regularly contribute to various projects, improving codebases and adding new features. This allows me to continuously learn, grow my skills, and give back to the developer community by collaborating with developers worldwide.",
     },
+    {
+        id: 5,
+        title: 'Desktop Application Development',
+        desc: 'I am very good at making desktop application using c++ and qt for modern applications that runs in all platforms whether windows or linux. '
+    },
 ]
 
 export default function handler(req, res) {

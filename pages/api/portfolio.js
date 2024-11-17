@@ -209,27 +209,30 @@ const portfolio = [
             },
         ]
     },
-    // {
-    //     id: 4,
-    //     projectName: "Shopping Platform",
-    //     url: "https://github.com/asimwe1/shopping",
-    //     image: "projects/",
-    //     projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
-    //     technologiesUsed: [
-    //         {
-    //             tech: "ReactJS"
-    //         },
-    //         {
-    //             tech: "NodeJS"
-    //         },
-    //         {
-    //             tech: "Ant Design"
-    //         },
-    //         {
-    //             tech: "TailwindCSS"
-    //         },
-    //     ]
-    // },
+    {
+        id: 4,
+        projectName: "Agakoti VPN",
+        url: "https://akanyoni.com/",
+        image: "projects/",
+        projectDetail: "Agakoti is a very fast vpn application that server more that 39 server all around the world, giving you a seemless experience using platforms for country of the server that you are connected to currently ",
+        technologiesUsed: [
+            {
+                tech: "ReactJS"
+            },
+            {
+                tech: "Php"
+            },
+            {
+                tech: "JavaScript"
+            },
+            {
+                tech: "Kotlin"
+            },
+            {
+                tech: "JQuery"
+            },
+        ]
+    },
 ]
 export default function handler(req, res) {
     res.status(200).json(portfolio)

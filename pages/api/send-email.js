@@ -1,28 +1,30 @@
 // /pages/api/send-email.js
-import nodemailer from 'nodemailer';
+import { SMTPClient } from 'emailjs';
 
 export default async function handler(req, res) {
     if (req.method === 'POST') {
         const { name, email, message } = req.body;
 
-        const transporter = nodemailer.createTransport({
-            service: 'gmail',
-            auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS,
-            },
+       const client = new SMTPClient({
+            user: process.env.EMAIL_USER,
+            password: process.env.EMAIL_PASS,
+            host: 'smtp.gmail.com:465', 
+            ssl: true,
         });
 
         const mailOptions = {
-            from: email,
-            to: 'landryasimwe@gmail.com',
-            subject: `New Contact Form Submission from ${name}`,
             text: message,
-            html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Message:</strong> ${message}</p>`,
+            from: email,
+            to: 'grouphantom@gmail.com',
+            subject: `New Contact Form Submission from ${name}`,
+            attachment: [
+                { data: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Message:</strong> ${message}</p>`, alternative: true },
+            ],
         };
 
         try {
-            await transporter.sendMail(mailOptions);
+
+            await client.sendAsync(mailOptions);
             return res.status(200).json({ message: 'Email sent successfully!' });
         } catch (error) {
             console.error('Error sending email:', error);

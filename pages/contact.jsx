@@ -18,6 +18,7 @@ const Contact = () => {
 
     const handleSubmit = async () => {
         try {
+            // Sending form data to the email sending API endpoint
             const res = await fetch('/api/send-email', {
                 method: 'POST',
                 headers: {
@@ -25,6 +26,7 @@ const Contact = () => {
                 },
                 body: JSON.stringify(formData),
             });
+
             const data = await res.json();
             if (res.status === 200) {
                 setIsOpen(true); // Open success modal
@@ -61,7 +63,11 @@ const Contact = () => {
                         <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Email:</span>
-                                <span className='text-LightGray text-sm'>landryasimwe@gmail.com</span>
+                                <span className='text-LightGray text-sm'>
+                                    <a href={`mailto:${process.env.CONTACT_EMAIL}`}>
+                                        {process.env.CONTACT_EMAIL}
+                                    </a>
+                                </span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Linkedin:</span>

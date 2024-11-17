@@ -29,7 +29,7 @@ export const SKILLS = [
     level: '59%',
   },
   {
-    title: 'Desktop Application Developer',
+    title: 'C++ Desktop App Developer',
     level: '75%',
   },
   {
@@ -53,6 +53,8 @@ export const TECH_STACK = [
   'ReactJS',
   'NextJS',
   'CSS',
+  'C++',
+  'Java',
   'BootstrapCSS',
   'TailwindCSS',
   'Ant Design',

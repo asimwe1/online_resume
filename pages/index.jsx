@@ -4,15 +4,16 @@ import MyExpertise from '../components/HomeComponents/Expertise/MyExpertise';
 import Recommendations from '../components/HomeComponents/Recommendations/Recommendations';
 import ClientReviews from '../components/HomeComponents/ClientReviews/ClientReviews';
 import { Analytics } from "@vercel/analytics/react"
+import { Helmet } from "react-helmet"
 const home = () => {
     return (
         <main>
-            <head>
+            <Helmet>
                 <Analytics />
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6172208143098274"
                     crossorigin="anonymous"></script>
-		<meta name="google-adsense-account" content="ca-pub-6172208143098274">
-            </head>
+		<meta name="google-adsense-account" content="ca-pub-6172208143098274" />
+            </Helmet>
             <div className="Home-Page -z-10">
                 <Banner />
                 <MyExpertise />

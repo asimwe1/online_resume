@@ -13,6 +13,7 @@ const home = () => {
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6172208143098274"
                     crossorigin="anonymous"></script>
 		<meta name="google-adsense-account" content="ca-pub-6172208143098274" />
+        <title>Asimwe Landry</title>
             </Helmet>
             <div className="Home-Page -z-10">
                 <Banner />
